@@ -1,0 +1,121 @@
+body{
+    margin: 0;
+    background-color: black;
+    color: black;
+}
+.clearfix::after{
+    content:'';
+    display: block;
+    clear: both;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.topNavBar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.topNavBar nav ul{
+    list-style: none;
+    margin-right:20px;
+}
+.topNavBar nav ul li{
+    float: right;
+    margin: 6px 17px;
+    border-top:3px solid transparent;
+    border-bottom:3px solid transparent;
+    padding:7px 0;
+}
+.topNavBar nav ul li:hover{
+    border-bottom:3px solid #f85063;
+}
+.topNavBar nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(255,255,255,0.6);
+}
+.topNavBar>a{
+    float: left;
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    padding:21px 15px;
+    font-weight: bold;
+}
+.topNavBar>a>.rs{
+    color: #e8676b;
+}
+.topNavBar>a>.card{
+    color: #9a9da2;
+    margin-left: 2px;
+}
+
+.topBanner{
+    border: 1px solid red;
+    background-image: url("../img/topBanner.jpg");
+    height: 515px;
+    background-position: center center;
+    background-size: cover;
+}
+.topBanner .mask{
+    height: 515px;
+    background-color: rgba(36,40,50,0.8);
+}
+main{
+    border: 1px solid red;
+    background-color: #ffffff;
+    max-width: 930px;
+    margin-left: auto;
+    margin-right: auto;
+}
+main .myCard{
+    padding: 56px 0 0 50px;
+}
+main .myPhoto{
+    float: left;
+}
+main .profile{
+    float: left;
+    margin-top: 2px;
+}
+main .welcome{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: "open sans";
+    background-color: #e8676b;
+    padding: 5px 12px;
+    position: relative;
+}
+main .welcome .triangle{
+    border:8px solid transparent;
+    width:0px;
+    border-top-width:0px;
+    border-left-color:#e8676b;
+    position: absolute;
+    top: 100%;
+    left: 4px;
+}
+
+main .profile h1{
+    font-size: 36px;
+    margin-top: 32px;
+    margin-bottom: 4px;
+}
+main .profile p{
+    font-size: 18px;
+}
+main .profile hr{
+    width: 100px;
+    margin-top: 11px;
+    color: #e2e2e2;
+}
+main .profile dt,main .profile dd{
+    float: left;
+    width:50%;
+}
