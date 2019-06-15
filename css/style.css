@@ -9,7 +9,7 @@ body{
     clear: both;
 }
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
 }
 .topNavBar{
@@ -130,6 +130,7 @@ main .profile dd{
     width: 70%;
     color: #9da0a7;
 }
-main .myCard footer{
-    
+main footer svg{
+    width: 35px;
+    height: 35px;
 }
