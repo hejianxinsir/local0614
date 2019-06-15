@@ -75,6 +75,7 @@ main{
 }
 main .myCard{
     padding: 56px 0 0 50px;
+    position: relative;
 }
 main .myPhoto{
     float: left;
@@ -129,6 +130,9 @@ main .profile dt{
 main .profile dd{
     width: 70%;
     color: #9da0a7;
+}
+main footer{
+    position:relative;
 }
 main footer svg{
     width: 35px;
