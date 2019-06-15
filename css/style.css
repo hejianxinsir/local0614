@@ -78,12 +78,12 @@ main .myCard{
 }
 main .myPhoto{
     float: left;
-    /*margin-right: 63px;*/
+    margin-right: 63px;
 }
 main .profile{
     float: left;
     margin-top: 2px;
-    /*width: 470px*/
+    width: 470px
 }
 main .welcome{
     color: white;
@@ -113,7 +113,7 @@ main .profile p{
     font-size: 18px;
 }
 main .profile hr{
-    width: 100px;
+    width: 470px;
     margin-top: 11px;
     margin-bottom: 18px;
     color: #e2e2e2;
@@ -129,4 +129,7 @@ main .profile dt{
 main .profile dd{
     width: 70%;
     color: #9da0a7;
+}
+main .myCard footer{
+    
 }
